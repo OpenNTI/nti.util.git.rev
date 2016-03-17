@@ -1,0 +1,23 @@
+{
+  "name": "nti-util-git-rev",
+  "version": "1.0.0",
+  "description": "Returns the current git revision on import",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://repos.nextthought.com/git/nti.util.git.rev"
+  },
+  "keywords": [
+    "git",
+    "revision"
+  ],
+  "author": "nextthought",
+  "license": "UNLICENCED",
+  "publishConfig": {
+    "registry": "https://npm.nextthought.com"
+  },
+  "dependencies": {
+    "git-rev-sync": "^1.4.0"
+  }
+}
