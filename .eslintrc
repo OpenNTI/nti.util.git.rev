@@ -1,0 +1,13 @@
+{
+	"extends": [
+		"nti-codestyle-js"
+	],
+
+	"env": {
+		"browser": false
+	}
+
+	"rules": {
+		"strict": 0
+	}
+}
