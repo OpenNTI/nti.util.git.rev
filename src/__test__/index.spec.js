@@ -1,3 +1,4 @@
+/* eslint-env jest */
 'use strict';
 
 const git = require('../index');
