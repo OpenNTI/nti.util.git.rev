@@ -4,9 +4,9 @@
   "description": "Returns the current git revision on import",
   "main": "src/index.js",
   "scripts": {
-      "test": "jest",
-      "prepack": "jest",
-      "postversion": "git push && git push --tags"
+    "test": "jest",
+    "prepack": "jest",
+    "release": "./release.sh"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,11 @@
       "!**/*.spec.js"
     ],
     "coverageDirectory": "reports/coverage",
-    "coverageReporters": ["text", "lcov", "cobertura"],
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "cobertura"
+    ],
     "testResultsProcessor": "./node_modules/jest-junit"
   },
   "jest-junit": {
