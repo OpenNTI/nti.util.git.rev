@@ -1,5 +1,5 @@
 {
-  "name": "nti-util-git-rev",
+  "name": "@nti/util-git-rev",
   "version": "1.1.0-alpha",
   "description": "Returns the current git revision on import",
   "main": "src/index.js",
