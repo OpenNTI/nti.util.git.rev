@@ -1,13 +1,16 @@
 {
-	"extends": [
-		"nti-codestyle-js"
-	],
+	"extends": "./node_modules/@nti/lib-scripts/config/eslintrc.js",
 
-	"env": {
-		"browser": false
-	}
+	"parserOptions": {
+		"sourceType": "script",
+		"ecmaFeatures": {
+			"impliedStrict": false
+		}
+	},
 
 	"rules": {
-		"strict": 0
+		"strict": ["error", "global"],
+		"import/no-commonjs": 0,
+		"no-restricted-globals": 0
 	}
 }
