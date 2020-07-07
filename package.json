@@ -5,7 +5,6 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "prepack": "jest",
     "release": "./release.sh"
   },
   "repository": {
