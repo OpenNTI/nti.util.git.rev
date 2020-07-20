@@ -24,25 +24,7 @@
     "git-rev-sync": "^1.6.0"
   },
   "devDependencies": {
-    "@nti/codestyle-js": "^1.1.0",
-    "jest": "^23.2.0",
-    "jest-junit": "^5.1.0"
-  },
-  "jest": {
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}",
-      "!**/*.spec.js"
-    ],
-    "coverageDirectory": "reports/coverage",
-    "coverageReporters": [
-      "text",
-      "lcov",
-      "cobertura"
-    ],
-    "testResultsProcessor": "./node_modules/jest-junit"
-  },
-  "jest-junit": {
-    "output": "reports/test-results/index.xml"
+    "@nti/eslint-config-lib-scripts": "^2.21.0",
+    "jest": "^26.1.0"
   }
 }
