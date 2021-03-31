@@ -1,6 +1,6 @@
 {
 	"extends": "@nti/eslint-config-lib-scripts",
-
+	"parser": "espree",
 	"parserOptions": {
 		"sourceType": "script",
 		"ecmaFeatures": {
